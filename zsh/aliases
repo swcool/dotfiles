@@ -1,1 +1,8 @@
 alias a='alias'
+a v='vim'
+a rake='noglob rake'
+a cc='clear'
+a ll='ls -alp'
+a lp='ls -p'
+a lr='ls -Rf'
+a kk='kill -9'
