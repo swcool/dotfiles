@@ -1,0 +1,10 @@
+[user]
+	name = 
+	email = 
+[alias]
+	co = checkout
+[core]
+	editor = vim -f
+  excludesfile = ~/.gitignore
+[merge]
+	tool = vimdiff
