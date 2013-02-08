@@ -1,0 +1,3 @@
+[submodule "vim/janus/vim-markdown"]
+	path = vim/janus/vim-markdown
+	url = git://github.com/plasticboy/vim-markdown.git
