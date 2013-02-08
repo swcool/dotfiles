@@ -1,0 +1,6 @@
+" \ is the leader character
+let mapleader = ","
+
+" Use tab key to switch windows and current file path
+set autochdir
+map <Tab> <C-W>W:cd %:p:h<CR>:<CR>
