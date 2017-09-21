@@ -6,3 +6,34 @@ a ll='ls -alp'
 a lp='ls -p'
 a lr='ls -Rf'
 a kk='kill -9'
+
+## Other Tools
+### ebook tool
+a sc='softcover'
+
+## Utilities
+### Finding
+a fw='grep -rnw . -e '
+a ff='find . -name'
+a hd='head -n 15'
+a h='history 20'
+
+### If you want to modify all directories and subdirectories, you'll need to combine find with chmod:
+a fdcm='find . -type d -exec chmod 755 {} +'
+# https://stackoverflow.com/questions/19737525/find-type-f-exec-chmod-644
+
+### find file and change to 644
+a ffcm='find . -type f -exec chmod 0644 {} \;'
+
+### Get html space code
+a hs='&nbsp;&nbsp;'
+
+### remote copy
+a cpex='rsync -rv --exclude'
+
+### get url file content with original file name
+a gwf='curl -O'
+
+### no parent and recursive to only get the http://WEBSITE.com/DIRECTORY directory.
+a gws='wget --no-parent -r'
+
