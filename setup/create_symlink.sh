@@ -13,7 +13,7 @@ while true; do
 done
 
 # Get the dotfiles directory's absolute path
-DOTFILES_DIR="$(cd "$(dirname "$0")"; pwd -P)"
+DOTFILES_DIR="$(cd "$(dirname "$0")";cd ..; pwd -P)"
 
 echo $DOTFILES_DIR
 cd $DOTFILES_DIR
