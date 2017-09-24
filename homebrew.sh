@@ -1,4 +1,7 @@
-## Original from https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/brew.sh
+## Install Homebrew  http://brew.sh
+## /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+## Below Original from https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/brew.sh
 #!/usr/bin/env bash
 
 # Install command-line tools using Homebrew.
