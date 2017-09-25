@@ -1,8 +1,10 @@
-## My Dot Files
+# Dotfiles
 
-These are config files and customized files to setup a system the way I like it. 
+This repository includes all of my custom dotfiles. They should be cloned to your home Projects directory so that the path is ~/Projects/dotfiles/. The included setup script creates symlinks from your home directory to the files which are located in ~/Projects/dotfiles/.
 
-I am using ZSH shell which is [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
+<img
+src="https://cdn-images-1.medium.com/max/800/1*ayVl2ie6CS0Flqr8TxoYgQ.png"
+width="250">
 
 ## Software I use
 
@@ -12,6 +14,8 @@ I am using ZSH shell which is [Oh My ZSH](https://github.com/robbyrussell/oh-my-
   * Editor - vim
   * Terminal - tmux
   * VCS - git
+  * Shell - ZSH : [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh)
+
 
 ## References
 
