@@ -97,5 +97,9 @@ brew install tree
 # brew install vbindiff
 # brew install zopfli
 
+# tmux highlight-copy-clipboard
+# https://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
+brew install reattach-to-user-namespace
+
 # Remove outdated versions from the cellar.
 brew cleanup
