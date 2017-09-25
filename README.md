@@ -25,6 +25,13 @@ width="250">
 
 ## Repository Structure
 
+* bin/   -  Utility executable scripts, should be copy to ~/bin/
+* git/   -  Git related dotfiles and other configuration files.
+* setup/ -  Installation files for dotfiles' apps
+* tmux/  -  Tmux related dotfiles.
+* vim/   -  Vim  related dotfiles and other configuration files.
+* zsh/   -  ZSH related dotfiles, aliases and other files.
+
 
 ## Awesome Dotfiles
 - A curated list of dotfiles resources, the reference project is
