@@ -27,3 +27,8 @@ create_symlink() {
 # All the symlinks
 # tmux
 create_symlink $DOTFILES_DIR/tmux/tmux.conf $HOME/.tmux.conf
+
+# zsh
+create_symlink $DOTFILES_DIR/zsh/zshrc $HOME/.zshrc
+create_symlink $DOTFILES_DIR/zsh/aliases $HOME/.aliases
+

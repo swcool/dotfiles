@@ -16,3 +16,5 @@ source $ZSH/oh-my-zsh.sh
 
 source $HOME/.aliases
 source $HOME/.aliases.local
+
+export PATH="$PATH:$HOME/.rvm/bin:/Applications/calibre.app/Contents/console.app/Contents/MacOS:$HOME/Applications:$HOME/bin" # Add RVM to PATH for scripting

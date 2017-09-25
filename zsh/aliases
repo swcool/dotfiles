@@ -1,4 +1,5 @@
 alias a='alias'
+a ss='source ~/.aliases; source ~/.aliases.local'
 a v='vim'
 a rake='noglob rake'
 a cc='clear'
