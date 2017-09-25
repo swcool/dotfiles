@@ -11,7 +11,6 @@ A curated list of dotfiles resources, the reference project is
 [here](https://github.com/webpro/awesome-dotfiles).
 
 ## Github Popular Dotfiles
-- A list of Github Popular Dotfiles repositories, the link is
-[here](https://github.com/search?q=topic%3Adotfiles&type=Repositories).
+- A list of Github Popular [Dotfiles repositories](https://github.com/search?q=topic%3Adotfiles&type=Repositories).
 - [dotfiles.github.io](http://dotfiles.github.io) - Your unofficial
   guide to dotfiles on GitHub.
