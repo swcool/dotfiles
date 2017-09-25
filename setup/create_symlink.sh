@@ -32,3 +32,6 @@ create_symlink $DOTFILES_DIR/tmux/tmux.conf $HOME/.tmux.conf
 create_symlink $DOTFILES_DIR/zsh/zshrc $HOME/.zshrc
 create_symlink $DOTFILES_DIR/zsh/aliases $HOME/.aliases
 
+# bin
+create_symlink $DOTFILES_DIR/bin/ssh-key $HOME/bin/ssh-key
+
