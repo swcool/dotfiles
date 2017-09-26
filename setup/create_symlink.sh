@@ -35,3 +35,7 @@ create_symlink $DOTFILES_DIR/zsh/aliases $HOME/.aliases
 # bin
 create_symlink $DOTFILES_DIR/bin/ssh-key $HOME/bin/ssh-key
 
+# vim
+create_symlink $DOTFILES_DIR/vim/vimrc.before $HOME/.vimrc.before
+create_symlink $DOTFILES_DIR/vim/vimrc.after $HOME/.vimrc.after
+

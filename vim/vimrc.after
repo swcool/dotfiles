@@ -1,3 +1,5 @@
+set wrap
 set relativenumber
+set pastetoggle=<F12>
 
 :imap jj <Esc>
