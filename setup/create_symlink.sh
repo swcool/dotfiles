@@ -38,4 +38,7 @@ create_symlink $DOTFILES_DIR/bin/ssh-key $HOME/bin/ssh-key
 # vim
 create_symlink $DOTFILES_DIR/vim/vimrc.before $HOME/.vimrc.before
 create_symlink $DOTFILES_DIR/vim/vimrc.after $HOME/.vimrc.after
+create_symlink $DOTFILES_DIR/vim/janus/README.md $HOME/.janus/README.md
+create_symlink $DOTFILES_DIR/vim/janus/vim-markdown $HOME/.janus/vim-markdown
+
 
