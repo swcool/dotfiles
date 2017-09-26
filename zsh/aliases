@@ -1,6 +1,8 @@
 alias a='alias'
 a ss='source ~/.aliases; source ~/.aliases.local'
 a v='vim'
+a emw="/usr/local/Cellar/emacs/25.3/Emacs.app/Contents/MacOS/Emacs"
+a em="/usr/local/Cellar/emacs/25.3/Emacs.app/Contents/MacOS/Emacs -nw"
 a rake='noglob rake'
 a cc='clear'
 a ll='ls -alp'

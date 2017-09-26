@@ -101,5 +101,9 @@ brew install tree
 # https://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
 brew install reattach-to-user-namespace
 
+# Emacs
+brew install emacs --with-cocoa
+brew linkapps emacs
+
 # Remove outdated versions from the cellar.
 brew cleanup
