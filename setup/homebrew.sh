@@ -105,5 +105,8 @@ brew install reattach-to-user-namespace
 brew install emacs --with-cocoa
 brew linkapps emacs
 
+# CocoaPod for ios 
+brew install cocoapods
+
 # Remove outdated versions from the cellar.
 brew cleanup
