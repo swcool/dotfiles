@@ -105,6 +105,10 @@ brew install reattach-to-user-namespace
 brew install emacs --with-cocoa
 brew linkapps emacs
 
+# Databases
+## MongoDB
+brew install mongodb
+
 # CocoaPod for ios 
 brew install cocoapods
 
