@@ -53,11 +53,12 @@ create_symlink $DOTFILES_DIR/zsh/aliases $HOME/.aliases
 # bin
 create_symlink $DOTFILES_DIR/bin/ssh-key $HOME/bin/ssh-key
 
-# vim
+# vim (Note: sync janus using "cd $HOME/.vim; rake")
 create_symlink $DOTFILES_DIR/vim/vimrc.before $HOME/.vimrc.before
 create_symlink $DOTFILES_DIR/vim/vimrc.after $HOME/.vimrc.after
 create_symlink $DOTFILES_DIR/vim/janus/README.md $HOME/.janus/README.md
 create_symlink $DOTFILES_DIR/vim/janus/vim-markdown $HOME/.janus/vim-markdown
+create_symlink $DOTFILES_DIR/vim/janus/vim-vue $HOME/.janus/vim-vue
 
 # References
 # https://github.com/kaicataldo/dotfiles/blob/master/bootstrap.sh
