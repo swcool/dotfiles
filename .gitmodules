@@ -4,3 +4,15 @@
 [submodule "vim/janus/vim-vue"]
 	path = vim/janus/vim-vue
 	url = https://github.com/posva/vim-vue.git
+[submodule "vim/janus/xmledit"]
+	path = vim/janus/xmledit
+	url = https://github.com/sukima/xmledit.git
+[submodule "vim/janus/vim-surround"]
+	path = vim/janus/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/janus/YouCompleteMe"]
+	path = vim/janus/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "vim/janus/auto-pairs"]
+	path = vim/janus/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git

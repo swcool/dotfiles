@@ -60,6 +60,12 @@ create_symlink $DOTFILES_DIR/vim/janus/README.md $HOME/.janus/README.md
 create_symlink $DOTFILES_DIR/vim/janus/vim-markdown $HOME/.janus/vim-markdown
 create_symlink $DOTFILES_DIR/vim/janus/vim-vue $HOME/.janus/vim-vue
 
+create_symlink $DOTFILES_DIR/vim/janus/auto-pairs $HOME/.janus/auto-pairs
+create_symlink $DOTFILES_DIR/vim/janus/xmledit $HOME/.janus/xmledit
+create_symlink $DOTFILES_DIR/vim/janus/vim-surround $HOME/.janus/vim-surround
+create_symlink $DOTFILES_DIR/vim/janus/YouCompleteMe $HOME/.janus/YouCompleteMe
+
+
 # References
 # https://github.com/kaicataldo/dotfiles/blob/master/bootstrap.sh
 # https://github.com/michaeljsmalley/dotfiles/blob/master/makesymlinks.sh

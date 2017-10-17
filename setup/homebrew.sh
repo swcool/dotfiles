@@ -109,6 +109,9 @@ brew linkapps emacs
 ## MongoDB
 brew install mongodb
 
+## CMake
+brew install cmake
+
 # CocoaPod for ios 
 brew install cocoapods
 
