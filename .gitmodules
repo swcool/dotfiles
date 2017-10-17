@@ -16,3 +16,9 @@
 [submodule "vim/janus/auto-pairs"]
 	path = vim/janus/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "vim/janus/supertab"]
+	path = vim/janus/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "vim/janus/ultisnips"]
+	path = vim/janus/ultisnips
+	url = https://github.com/SirVer/ultisnips.git

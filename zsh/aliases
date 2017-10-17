@@ -82,3 +82,6 @@ alias path='echo -e ${PATH//:/\\n}'
 ## NodeJS
 ### list repl builtin modules
 a nmd="node -pe \"require('repl')._builtinLibs\""
+
+## Git Utilies
+a gsa='git submodule add'

@@ -64,6 +64,8 @@ create_symlink $DOTFILES_DIR/vim/janus/auto-pairs $HOME/.janus/auto-pairs
 create_symlink $DOTFILES_DIR/vim/janus/xmledit $HOME/.janus/xmledit
 create_symlink $DOTFILES_DIR/vim/janus/vim-surround $HOME/.janus/vim-surround
 create_symlink $DOTFILES_DIR/vim/janus/YouCompleteMe $HOME/.janus/YouCompleteMe
+create_symlink $DOTFILES_DIR/vim/janus/supertab $HOME/.janus/supertab
+create_symlink $DOTFILES_DIR/vim/janus/ultisnips $HOME/.janus/ultisnips
 
 
 # References
