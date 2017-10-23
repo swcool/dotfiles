@@ -112,8 +112,21 @@ brew install mongodb
 ## CMake
 brew install cmake
 
-# CocoaPod for ios 
+# CocoaPod for ios
 brew install cocoapods
 
+# View image from terminal
+brew install feh
+
+# Install Python 3 with pip3
+brew install python3
+
+## Install Python pip3 virtualenv
+pip3 install --upgrade virtualenv
+
+### Install Machine Learning package inside virtualenv
+# pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn 
+
+## Note: python3 in /usr/local/bin/python3 python2 in /usr/bin/python
 # Remove outdated versions from the cellar.
 brew cleanup

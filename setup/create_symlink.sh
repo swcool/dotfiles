@@ -67,6 +67,8 @@ create_symlink $DOTFILES_DIR/vim/janus/YouCompleteMe $HOME/.janus/YouCompleteMe
 create_symlink $DOTFILES_DIR/vim/janus/supertab $HOME/.janus/supertab
 create_symlink $DOTFILES_DIR/vim/janus/ultisnips $HOME/.janus/ultisnips
 
+create_symlink $DOTFILES_DIR/vim/janus/markdown.snippets $HOME/.vim/ultisnips/markdown.snippets
+create_symlink $DOTFILES_DIR/vim/janus/ultisnips.snippets $HOME/.vim/ultisnips/ultisnips.snippets
 
 # References
 # https://github.com/kaicataldo/dotfiles/blob/master/bootstrap.sh
