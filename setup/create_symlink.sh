@@ -70,6 +70,8 @@ create_symlink $DOTFILES_DIR/vim/janus/ultisnips $HOME/.janus/ultisnips
 create_symlink $DOTFILES_DIR/vim/janus/markdown.snippets $HOME/.vim/ultisnips/markdown.snippets
 create_symlink $DOTFILES_DIR/vim/janus/ultisnips.snippets $HOME/.vim/ultisnips/ultisnips.snippets
 
+create_symlink $DOTFILES_DIR/vim/janus/vim-markdown-folding $HOME/.janus/vim-markdown-folding
+
 # References
 # https://github.com/kaicataldo/dotfiles/blob/master/bootstrap.sh
 # https://github.com/michaeljsmalley/dotfiles/blob/master/makesymlinks.sh

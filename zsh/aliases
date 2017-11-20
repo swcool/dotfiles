@@ -85,3 +85,6 @@ a nmd="node -pe \"require('repl')._builtinLibs\""
 
 ## Git Utilies
 a gsa='git submodule add'
+
+## Python
+a p3="/usr/local/bin/python3"
