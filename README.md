@@ -23,6 +23,9 @@ width="250">
 
 4. Start using your dotfiles' apps
 
+5. Install Iterm2 for Mac on https://iterm2.com/downloads.html
+    [Reference](https://technofob.com/2020/12/24/the-ultimate-mac-m1-terminal-iterm2-oh-my-zsh-zsh-syntax-highlighting/)
+
 ## Repository Structure
 
 * bin/   -  Utility executable scripts, should be copy to ~/bin/

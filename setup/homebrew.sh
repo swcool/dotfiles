@@ -1,5 +1,22 @@
 ## Install Homebrew  http://brew.sh
+
+## For M1 on mac bigsur
 ## /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+###################################
+
+## Warning: /opt/homebrew/bin is not in your PATH.
+##   Instructions on how to configure your shell for Homebrew
+##   can be found in the 'Next steps' section below.
+
+## ==> Next steps:
+## - Run these two commands in your terminal to add Homebrew to your PATH:
+##     echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/shaneweng/.zprofile
+##     eval "$(/opt/homebrew/bin/brew shellenv)"
+## - Run `brew help` to get started
+## - Further documentation: 
+##     https://docs.brew.sh
+###################################
 
 ## Below Original from https://raw.githubusercontent.com/mathiasbynens/dotfiles/master/brew.sh
 #!/usr/bin/env bash
@@ -35,17 +52,17 @@ brew install gnu-sed --with-default-names
 # fi;
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
+##  brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
-brew install grep
+##  brew install vim --with-override-system-vi
+##  brew install grep
 brew install openssh
 brew install screen
-brew install homebrew/php/php56 --with-gmp
+# brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
 # brew tap bramstein/webfonttools
@@ -80,11 +97,11 @@ brew install homebrew/php/php56 --with-gmp
 # brew install xz
 
 # Install other useful binaries.
-brew install ack
+# brew install ack
 # brew install exiv2
-brew install git
+# brew install git
 # brew install git-lfs
-brew install imagemagick --with-webp
+# brew install imagemagick --with-webp
 # brew install lua
 # brew install lynx
 # brew install p7zip
@@ -99,21 +116,22 @@ brew install tree
 
 # tmux highlight-copy-clipboard
 # https://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
+brew install tmux
 brew install reattach-to-user-namespace
 
 # Emacs
-brew install emacs --with-cocoa
-brew linkapps emacs
+# brew install emacs --with-cocoa
+# brew linkapps emacs
 
 # Databases
 ## MongoDB
-brew install mongodb
+# brew install mongodb
 
 ## CMake
 brew install cmake
 
 # CocoaPod for ios
-brew install cocoapods
+# brew install cocoapods
 
 # View image from terminal
 brew install feh
@@ -122,7 +140,7 @@ brew install feh
 brew install python3
 
 ## Install Python pip3 virtualenv
-pip3 install --upgrade virtualenv
+#     pip3 install --upgrade virtualenv
 
 ### Install Machine Learning package inside virtualenv
 # pip3 install --upgrade jupyter matplotlib numpy pandas scipy scikit-learn 
